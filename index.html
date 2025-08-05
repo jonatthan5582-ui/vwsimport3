@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+  <meta charset="UTF-8">
+  <title>สินค้า VWS IMPORT</title>
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: sans-serif;
+      background-color: #f4f4f4;
+      display: flex;
+      flex-direction: column;
+      min-height: 100vh;
+    }
+
+    .top-bar, .bottom-bar {
+      background-color: #1D3A85;
+      color: white;
+      text-align: center;
+      padding: 15px;
+      font-size: 30px;
+    }
+
+    .bottom-bar {
+      margin-top: auto;
+    }
+
+    .section {
+      margin: 30px auto;
+      max-width: 100%;
+      padding: 0 20px;
+    }
+
+    .category-title {
+      font-size: 24px;
+      font-weight: bold;
+      color: #1D3A85;
+      margin-bottom: 15px;
+    }
+
+    .product-grid {
+      display: flex;
+      gap: 20px;
+      overflow-x: auto;
+      padding-bottom: 10px;
+    }
+
+    .card {
+      flex: 0 0 auto;
+      width: 250px;
+      background: white;
+      border-radius: 12px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+      overflow: hidden;
+      transition: 0.3s;
+    }
+
+    .card:hover {
+      transform: translateY(-5px);
+    }
+
+    .card img {
+      width: 100%;
+      height: 180px;
+      object-fit: cover;
+    }
+
+    .content {
+      padding: 15px;
+    }
+
+    .content p {
+      margin: 0 0 5px;
+      font-size: 16px;
+      font-weight: bold;
+    }
+
+    .price {
+      color: #d70000;
+      font-size: 18px;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- แถบบน -->
+  <div class="top-bar">
+    ยินดีต้อนรับสู่ อะไหล่รถยุโรป vws import
+  </div>
+
+  <!-- ========== หมวดหมู่: เครื่องยนต์ ========== -->
+  <div class="section">
+    <div class="category-title">🚗 เครื่องยนต์</div>
+    <div class="product-grid">
+      <div class="card">
+        <img src="https://media.discordapp.net/attachments/1247814131755646986/1402010247207452784/59c77a8e-f97d-4022-9899-a485b3af569e.webp" alt="ZK-HT21">
+        <div class="content">
+          <p>ZK-HT21 เครื่องขยายเสียง</p>
+          <div class="price">฿500</div>
+        </div>
+      </div>
+
+      <div class="card">
+        <img src="https://media.discordapp.net/attachments/1247814131755646986/1402010711072444537/147901_0-Photoroom_1.png" alt="ลำโพง 8 นิ้ว">
+        <div class="content">
+          <p>เครื่องเสียง + ลำโพง 8 นิ้ว</p>
+          <div class="price">฿3,590</div>
+        </div>
+      </div>
+
+      <div class="card">
+        <img src="https://example.com/engine3.jpg" alt="สินค้าเพิ่มเติม">
+        <div class="content">
+          <p>เครื่องยนต์ดีเซล</p>
+          <div class="price">฿9,000</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ========== หมวดหมู่: ท่อไอเสีย ========== -->
+  <div class="section">
+    <div class="category-title">🔧 ท่อไอเสีย</div>
+    <div class="product-grid">
+      <div class="card">
+        <img src="https://example.com/exhaust1.jpg" alt="ท่อ A1">
+        <div class="content">
+          <p>ท่อไอเสียสแตนเลส</p>
+          <div class="price">฿2,000</div>
+        </div>
+      </div>
+
+      <div class="card">
+        <img src="https://example.com/exhaust2.jpg" alt="ท่อ B2">
+        <div class="content">
+          <p>ท่อแต่งเสียงแน่น</p>
+          <div class="price">฿3,500</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ========== หมวดหมู่: อะไหล่รถยนต์ ========== -->
+  <div class="section">
+    <div class="category-title">🛠️ อะไหล่รถยนต์</div>
+    <div class="product-grid">
+      <div class="card">
+        <img src="https://example.com/part1.jpg" alt="อะไหล่ A">
+        <div class="content">
+          <p>กรองอากาศแท้</p>
+          <div class="price">฿800</div>
+        </div>
+      </div>
+
+      <div class="card">
+        <img src="https://example.com/part2.jpg" alt="อะไหล่ B">
+        <div class="content">
+          <p>ผ้าเบรกเซรามิก</p>
+          <div class="price">฿1,500</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- แถบล่าง -->
+  <div class="bottom-bar">
+    📞 ติดต่อ: 080-0305086 | Line: @vws2016
+  </div>
+
+</body>
+</html>
