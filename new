@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+  <meta charset="UTF-8">
+  <title>สินค้า VWS IMPORT</title>
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: sans-serif;
+      background-color: #f4f4f4;
+      display: flex;
+      flex-direction: column;
+      min-height: 150vh;
+    }
+
+    .top-bar, .bottom-bar {
+      background-color: #1D3A85;
+      color: white;
+      text-align: center;
+      padding: 15px;
+      font-size: 30px;
+    }
+
+    .bottom-bar {
+      margin-top: auto;
+    }
+
+    .section {
+      margin: 30px auto;
+      max-width: 100%;
+      padding: 0 20px;
+    }
+
+    .category-title {
+      font-size: 24px;
+      font-weight: bold;
+      color: #1D3A85;
+      margin-bottom: 15px;
+    }
+
+    /* กล่องสินค้าแนวนอน */
+    .product-grid {
+      display: flex;
+      gap: 20px;
+      overflow-x: auto;
+      padding-bottom: 10px;
+    }
+
+    .card {
+      flex: 0 0 auto;
+      width: 350px; /* ทำให้เล็กลง */
+      background: white;
+      border-radius: 12px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+      overflow: hidden;
+      transition: 0.3s;
+    }
+
+    .card:hover {
+      transform: translateY(-5px);
+    }
+
+    /* ปรับขนาดรูปให้ไม่สูงเกินไป */
+    .card img {
+      width: 100%;
+      height: 350px;
+      object-fit: cover;
+    }
+
+    .content {
+      padding: 10px;
+    }
+
+    .content p {
+      margin: 0 0 5px;
+      font-size: 14px;
+      font-weight: bold;
+    }
+
+    .price {
+      color: #d70000;
+      font-size: 20px;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- แถบบน -->
+  <div class="top-bar">
+    ยินดีต้อนรับสู่ อะไหล่รถยุโรป vws import
+  </div>
+
+  <!-- ========== หมวดหมู่: เครื่องยนต์ ========== -->
+  <div class="section">
+    <div class="category-title">🚗 เครื่องยนต์</div>
+    <div class="product-grid">
+      <div class="card">
+        <img src="https://media.discordapp.net/attachments/1403301034142728326/1403301352490143837/bd8757ea096dac0f.png?ex=68970dba&is=6895bc3a&hm=570f1df03096e487090e3a0812e4339eeb8826a2f65e8cb650b2782700762310&=&format=webp&quality=lossless&width=847&height=847" alt="ZK-HT21">
+        <div class="content">
+          <p>A/C CONDENSER แผงแอร์(VW: Scirocco, Golf6)</p>
+          <div class="price">฿xxx</div>
+        </div>
+      </div>
+
+      <div class="card">
+        <img src="https://media.discordapp.net/attachments/1403301034142728326/1403301351986823168/1.png?ex=68970dba&is=6895bc3a&hm=d59f3d1983fd19c8afa136cc4ebd63b6883cbd9bce88fdee51bb63d44864af45&=&format=webp&quality=lossless&width=847&height=847" alt="ลำโพง 8 นิ้ว">
+        <div class="content">
+          <p>PORSCHE CAYENNE ชุดซ่อมโช็คถุงลม </p>
+          <div class="price">฿xxx</div>
+        </div>
+      </div>
+
+      <div class="card">
+        <img src="https://media.discordapp.net/attachments/1403301034142728326/1403301350481072199/Blue_and_White_Simple_Car_Rental_Business_Instagram_Post_3_0.png?ex=68970dba&is=6895bc3a&hm=ef9c24703f653bda010d51bbb5b3d88f4e5ae312645dfa9998b29060f11ef997&=&format=webp&quality=lossless&width=847&height=847" alt="สินค้าเพิ่มเติม">
+        <div class="content">
+          <p>FUEL TANK DOOR LOCK มอเตอร์กลอนฝาถังน้ํามัน (Audi : A3, A5, Q7, Q8, TT MK3 etc.) </p>
+          <div class="price">฿xxx</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ========== หมวดหมู่: ท่อไอเสีย ========== -->
+  <div class="section">
+    <div class="category-title">🔧 ท่อไอเสีย</div>
+    <div class="product-grid">
+      <div class="card">
+        <img src="https://media.discordapp.net/attachments/1403301034142728326/1403301349600264202/Blue_and_White_Simple_Car_Rental_Business_Instagram_Post_1_0.png?ex=68970db9&is=6895bc39&hm=27e46817946767a7c1311982bd205c3681642cfd4c25374b86f474b8dca8e431&=&format=webp&quality=lossless&width=847&height=847" alt="ท่อ A1">
+        <div class="content">
+          <p>Engine Oil Filter กรองนํ้ามันเครื่อง (Audi : TT,TTS,A3, A4, Engine 2.0,2.5) </p>
+          <div class="price">฿xxx</div>
+        </div>
+      </div>
+
+      <div class="card">
+        <img src="https://media.discordapp.net/attachments/1403301034142728326/1403301349990600805/Yellow_Minimalist_Car_Rental_Deal_Instagram_Post_4_0.png?ex=68970db9&is=6895bc39&hm=ec7dc48c8b34abd38dddad444a8554329a2426154e12d13b77664cb8907ebb42&=&format=webp&quality=lossless&width=847&height=847" alt="ท่อ B2">
+        <div class="content">
+          <p>ADDITIONAL WATER PUMP ปั่มน้ำตัวช่วย (VW Scirocco.Golf6.passatCC.TTS.Beetle etc) </p>
+          <div class="price">฿xxx</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ========== หมวดหมู่: อะไหล่รถยนต์ ========== -->
+  <div class="section">
+    <div class="category-title">🛠️ อะไหล่รถยนต์</div>
+    <div class="product-grid">
+      <div class="card">
+        <img src="https://media.discordapp.net/attachments/1403301034142728326/1403301350951092325/Yellow_Minimalist_Car_Rental_Deal_Instagram_Post_3_0.png?ex=68970dba&is=6895bc3a&hm=190eec6279949fc62997d335acfdcb2828fd08128791e7143b16a405394ab3fc&=&format=webp&quality=lossless&width=847&height=847" alt="อะไหล่ A">
+        <div class="content">
+          <p>REAR LID LOCK กลอนฝาท้าย (VW : Scirocco.Golf6.)</p>
+          <div class="price">฿xxx</div>
+        </div>
+      </div>
+
+      <div class="card">
+        <img src="https://media.discordapp.net/attachments/1403301034142728326/1403301351500419122/Yellow_Minimalist_Car_Rental_Deal_Instagram_Post_6_0.png?ex=68970dba&is=6895bc3a&hm=843a4e9d032d9a3fb7725efb6a7bb534588e58a5aac1a8fc6dea841b96e2f6b3&=&format=webp&quality=lossless&width=847&height=847" alt="อะไหล่ B">
+        <div class="content">
+          <p>IGNITION COIL ดอยล์จุดระเบิด (Audi TT MK3, Vw Golf7,Golf7R)</p>
+          <div class="price">฿xxx</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- แถบล่าง -->
+  <div class="bottom-bar">
+    📞 ติดต่อ: 080-0305086 | Line: @vws2016
+  </div>
+
+
+</body>
+</html>
